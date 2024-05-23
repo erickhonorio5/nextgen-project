@@ -1,0 +1,79 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--neutral-background)
+}
+
+ul{
+  list-style: none;
+}
+
+:root {
+  
+  /* fonts */
+  --body-medium-body-2: Inter;
+  --font-inter: Inter;
+  
+  /* font sizes */
+  --body-medium-body-2-size: 16px;
+
+  --biggest-font-size: 1.75rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  --tiny-font-size: .625rem; 
+
+
+  /* Marg */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-1: .1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  
+  /* Colors */
+  --hue-color: 210;
+  --neutral-white: #fff;
+  --brand-primary: #4caf4f;
+  --brand-primary-alt: #369739da;
+  --brand-primary-high: #227524cc;
+  --neutral-d-grey: #4d4d4d;
+  --neutral-l-black: #000000;
+  --neutral-background: #F5F7FA;
+  --neutral-background-alt: #cbd6e7bb;
+  --first-color-light: hsl(var(--hue-color)122, 55%, 69%);
+  --first-color-alt: hsl(var(--hue-color)122, 55%, 39%);
+  --first-colorlighter: hsl(var(--hue-color)122, 55%, 54%);
+  --text-color-light: #929faf;
+
+  
+  /* Gaps */
+  --gap-7xs-6: 5.6px;
+  
+  /* Effects */
+  --shadow-4: 0px 4px 8px rgba(171, 190, 209, 0.4);
+}
+
+@media screen and (min-width: 968px) {
+  :root{
+    --biggest-font-size: 2.125rem;
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+    --tiny-font-size: .688rem;
+  }
+}

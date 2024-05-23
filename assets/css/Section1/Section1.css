@@ -1,0 +1,56 @@
+/* ================= Primeiro Section =========== */
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #F5F5F5;
+  padding: 100px 100px;
+  gap: 72.4px;
+  font-size: 44.55px;
+  color: #4d4d4d;
+}
+
+.from-8-years {
+  color: var(--brand-primary);
+}
+
+.lessons-and-insights-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 52.9px;
+  font-weight: 600;
+}
+
+.where-to-grow {
+  align-self: stretch;
+  position: relative;
+  font-size: 15.14px;
+  line-height: 16.71px;
+  color: var(--neutral-grey);
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.button-register-section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.78px;
+  background-color: var(--brand-primary);
+  color: var(--neutral-white);
+  padding: 8px;
+  gap: 5.6px;
+  align-items: center;
+  min-width: 90px;
+  cursor: pointer;
+  width: 100px;
+  margin-top: 22px;
+}
+
+.register-text-section1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 15px;
+}
